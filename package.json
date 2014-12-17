@@ -1,0 +1,29 @@
+{
+  "name": "pd-elo",
+  "version": "0.0.1",
+  "description": "The poor developer's ELO rating module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter nyan test/*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/FenrirUnbound/pd-elo"
+  },
+  "keywords": [
+    "ELO"
+  ],
+  "author": "aeneascorrupt@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/FenrirUnbound/pd-elo/issues"
+  },
+  "homepage": "https://github.com/FenrirUnbound/pd-elo",
+  "devDependencies": {
+    "chai": "^1.10.0",
+    "mocha": "^2.0.1"
+  },
+  "dependencies": {
+    "async": "^0.9.0"
+  }
+}
