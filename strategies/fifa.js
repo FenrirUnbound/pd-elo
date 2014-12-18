@@ -76,6 +76,15 @@ function actualMatchResult_(selfScore, opponentScore) {
 }
 
 function goalCoefficient_(selfScore, opponentScore) {
+  var difference = Math.abs(selfScore - opponentScore);
+
+  if(difference === 2) {
+    return 3/2;
+  }
+  if(difference >= 3) {
+    return (11 + difference) / 8;
+  }
+
   return 1;
 }
 
